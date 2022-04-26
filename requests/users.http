@@ -1,0 +1,28 @@
+@api = http://localhost:4000/api/users
+
+### get all users
+GET {{api}}
+
+### create users
+USER {{api}}
+Content-Type: application/json
+
+{
+  "names": "your names",
+  "email": "email",
+  "image": "some image.url"
+}
+
+### get a single user
+GET {{api}}/623a9e2e90e70485df76d487
+
+### update a single user
+PUT {{api}}/623a9e2e90e70485df76d487
+Content-Type: application/json
+
+{
+"description": "some new image"
+}
+
+### delete a single user
+DELETE {{api}}/623a9e2e90e70485df76d487
