@@ -23,9 +23,9 @@ app.use(
 );
 
 app.use(express.static(path.join(__dirname, '../client/build')));
-app.get('*', (req, res) => {
-  res.sendFile(join(__dirname, '../client/build/index.html'));
-});
+// app.get('*', (req, res) => {
+//   res.sendFile(join(__dirname, '../client/build/index.html'));
+// });
 
 // Routes
 app.use('/api', userRoutes);
