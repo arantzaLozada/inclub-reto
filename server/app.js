@@ -6,7 +6,7 @@ import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 
 import userRoutes from './routes/users.routes.js';
-import { response } from 'express';
+// import { response } from 'express';
 
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
