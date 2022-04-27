@@ -3,7 +3,7 @@ import { HomePage, NotFoundPage, UserForm } from './pages';
 import { UserProvider } from './context/userContext';
 import { Toaster } from 'react-hot-toast';
 import { Administrator } from './pages/Administrator';
-import { Chat } from './pages/Chat';
+import { ChatHome } from './pages/ChatHome';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/administrator" element={<Administrator />} />
             <Route path="/new" element={<UserForm />} />
-            <Route path="/chat" element={<Chat />} />
+            <Route path="/chat" element={<ChatHome />} />
             <Route path="/:id" element={<UserForm />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>

@@ -1,7 +1,7 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 export function UserChat({ users }) {
-  const [selectedPerson1, setSelectedPerson2] = useState(users[0]);
+  // const [selectedPerson1, setSelectedPerson2] = useState(users[0]);
 
   return (
     <div className="pt-5">

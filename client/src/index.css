@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-chat:nth-child(odd) {
+  background-color: #00acc1;
+  border-radius: 4px;
+  color: white;
+  padding: 2px 0px;
+}
