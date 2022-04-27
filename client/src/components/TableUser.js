@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { useUsers } from '../context/userContext';
 
-import toast from 'react-hot-toast';
+// import toast from 'react-hot-toast';
 import { VscAccount, VscEdit, VscTrash } from 'react-icons/vsc';
 
 export function TableUser({ users }) {
