@@ -10,14 +10,14 @@ export function UserChat({ users }) {
       <div className="flex pb-5 pt-5">
         <div className="pr-10">
           <select name="" id="" className="bg-slate-100 py-2 px-2 rounded-md">
-            {Array.from(users).map((user) => (
+            {users.map((user) => (
               <option value={user._id}>{user.names}</option>
             ))}
           </select>
         </div>
         <div>
           <select name="" id="" className="bg-slate-100 py-2 px-2 rounded-md">
-            {Array.from(users).map((user) => (
+            {users.map((user) => (
               <option value={user._id}>{user.names}</option>
             ))}
           </select>
