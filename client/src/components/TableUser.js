@@ -65,7 +65,7 @@ export function TableUser({ users }) {
           </tr>
         </thead>
         <tbody>
-          {users.map((user) => (
+          {Array.from(users).map((user) => (
             <tr
               key={user._id}
               className="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
