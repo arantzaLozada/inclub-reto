@@ -96,7 +96,7 @@ export function TableUser({ users }) {
                   onClick={(e) => {
                     e.stopPropagation();
                     // handleDelete(user._id, user.names);
-                    deleteUser(id);
+                    deleteUser(user._id);
                   }}
                 >
                   <VscTrash className="text-white" />
